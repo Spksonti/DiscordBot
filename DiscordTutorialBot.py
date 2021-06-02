@@ -1,11 +1,3 @@
-#Discord Bot
-# id - 575109063419887618
-# token - NTc1MTA5MDYzNDE5ODg3NjE4.XNDKbA.6fQXVeKHDn_kSATflG3FATLMyyw
-# permissions int - 67648
-# https://discordapp.com/oauth2/authorize?client_id=575109063419887618&scope=bot&permissions=67648
-# server id - 420371828335312896
-# brandon - 238807706419331072
-#Alex - 249429936098639873
 
 import discord
 from discord.ext import commands
@@ -80,7 +72,7 @@ async def user_metrics():
 
 async def on_ready():
     global guild
-    guild = client.get_guild(420371828335312896)
+    guild = client.get_guild(#guildNumber)
     await client.change_presence(status=discord.Status.dnd, activity=discord.Game('At Your Service'))
     print(f"we have logged in as {client.user}")
     
