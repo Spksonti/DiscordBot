@@ -1,3 +1,7 @@
+# Background
+
+
+
 # DiscordBot(Work in Progress)
 
 *Discord is a tool used for communication amongst friends*
